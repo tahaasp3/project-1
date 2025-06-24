@@ -1,47 +1,42 @@
-Music Playlist Manager – C++ Project
-Overview
-Music Playlist Manager is a console-based C++ application that enables users to manage a dynamic music playlist. It utilizes fundamental data structures such as Doubly Linked Lists, Stacks, and Deques, and applies standard sorting and searching algorithms to simulate the functionality of a basic music player.
+# Music Playlist Manager (C++ Project)
 
-Features
-Add and remove songs
+## Overview
 
-Display the full playlist
+**Music Playlist Manager** is a C++ console application that allows users to manage their music playlist dynamically. It uses fundamental data structures like **Doubly Linked List**, **Stack**, and **Deque**, and implements **sorting** and **searching** algorithms to provide features similar to a basic music player.
 
-Sort playlist:
+---
 
-By title using Merge Sort (A–Z)
+## Features
 
-By duration using Bubble Sort
+* Add and remove songs
+* Display full playlist
+* Sort songs by:
 
-Search songs by title:
+  * **Title** using Merge Sort (A–Z)
+  * **Duration** using Bubble Sort
+* Search songs by title using:
 
-Using Linear Search (for unsorted playlists)
+  * **Linear Search**
+  * **Binary Search**
+* Track recently played songs using **Stack**
+* ⏯Manage play queue using **Double-Ended Queue (Deque)**
 
-Using Binary Search (for sorted playlists)
+---
 
-Track recently played songs using a Stack
+## Data Structures Used
 
-Manage the play queue using a Deque (Double-Ended Queue)
+Doubly Linked List
+Stack (Singly Linked)                  
+Deque (Doubly Linked)                    
+Merge Sort
+Bubble Sort
+Linear & Binary Search
 
-Data Structures and Algorithms Used
-Doubly Linked List – for playlist storage and navigation
+---
 
-Singly Linked Stack – for tracking recently played songs
+## Sample Menu (Console Interface)
 
-Doubly Linked Deque – for managing the song play queue
-
-Merge Sort – efficient sorting by title
-
-Bubble Sort – simple sorting by duration
-
-Linear Search – suitable for unsorted data
-
-Binary Search – efficient for sorted playlists
-
-Sample Menu (Console Interface)
-markdown
-Copy
-Edit
+```
 Music Playlist Manager
 1. Add Song
 2. Remove Song
@@ -57,29 +52,29 @@ Music Playlist Manager
 12. Add to Queue Rear
 13. Display Queue
 14. Exit
-Concepts Practiced
-Object-Oriented Programming (OOP)
+```
 
-Dynamic Memory Allocation
+---
 
-Linked List Implementation (Singly and Doubly)
+## Concepts Practiced
 
-Sorting Algorithms: Merge Sort and Bubble Sort
+* Object-Oriented Programming (OOP)
+* Dynamic Memory Management
+* Linked Lists (Singly & Doubly)
+* Sorting Algorithms
+* Searching Algorithms
+* Stack and Queue (Deque) Implementation
 
-Searching Algorithms: Linear and Binary Search
+---
 
-Stack and Queue (Deque) Operations using Linked Lists
+## Authors
 
-Authors
+* \[Muhammad Usman]
+* \[Muhammad Abdullah Khan]
+* \[Muhammad Zayam Sabir]
+* \[Taha Malik]
+---
 
-Muhammad Usman
+## License
 
-Muhammad Abdullah Khan
-
-Muhammad Zayam Sabir
-
-Taha Malik
-
-License
-This project is intended for academic purposes only. Feel free to use or modify it for educational and learning use.
-
+This project is for academic purposes only. Feel free to use and modify it for learning.
